@@ -41,5 +41,6 @@ RUN yum -y install \
     psmisc \
     qt4-devel \
     qwt5-qt4-devel \
+    tar \
     wget
 
