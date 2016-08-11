@@ -39,7 +39,7 @@ RUN yum -y install \
     make \
     opencv-devel \
     psmisc \
-    qt-devel \
-    qwt-devel \
+    qt4-devel \
+    qwt5-qt4-devel \
     wget
 
