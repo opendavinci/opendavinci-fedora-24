@@ -32,6 +32,8 @@ RUN yum -y install \
     freeglut-devel \
     gcc \
     gcc-c++ \
+    git \
+    python2 \
     iproute \
     kernel-devel \
     make \
