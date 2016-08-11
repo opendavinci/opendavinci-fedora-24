@@ -25,6 +25,7 @@ RUN yum -y update && \
 
 RUN yum -y install \
     ant \
+    ant-junit \
     automake \
     boost-devel \
     cmake \
