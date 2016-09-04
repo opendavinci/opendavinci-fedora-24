@@ -20,10 +20,10 @@
 FROM fedora:24
 MAINTAINER Christian Berger "christian.berger@gu.se"
 
-RUN yum -y update && \
-    yum -y upgrade
+RUN dnf -y update && \
+    dnf -y upgrade
 
-RUN yum -y install \
+RUN dnf -y install \
     ant \
     ant-junit \
     automake \
