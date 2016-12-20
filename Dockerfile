@@ -44,3 +44,5 @@ RUN dnf -y install \
     tar \
     wget
 
+RUN dnf -y install gdb
+
